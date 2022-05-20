@@ -1,0 +1,49 @@
+.sidenavbar {
+    height:auto ;/*  Full-height: remove this if you want "auto" height */
+    width: 700px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color:white; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 200px;
+    padding-left: 170px;
+	display: block;
+  }
+  
+@media (min-width:1280px) and (max-width: 1600px){
+	.sidenavbar {
+		width: 550px;
+		padding-left: 140px;
+	}
+
+	.maincontent {
+		margin-left: 550px !important; /* Same as the width of the sidebar 	*/
+	}
+}  
+@media (max-width: 768px){
+	.sidenavbar{
+			display: none;}
+	.maincontent {
+    margin-left: 0px !important; /* Same as the width of the sidebar */
+    padding: 10px 10px;
+    background-color: white;
+  }*/
+			
+		} 
+  /* Style page content */
+  .maincontent {
+    margin-left: 700px; /* Same as the width of the sidebar */
+    padding: 100px 10px;
+    background-color: white;
+  }
+  
+  @media
+  
+  .footerclass{
+      min-width: 100%;
+      margin-left: 0px;
+      margin-bottom: 90%;
+      background-color: rgb(255, 255, 255);
+  }

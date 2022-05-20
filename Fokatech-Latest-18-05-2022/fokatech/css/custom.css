@@ -1,0 +1,218 @@
+.bootstrap-select .btn:focus
+	{
+	outline:none dotted #333!important;
+	box-shadow:none!important;
+	outline-offset:0px!important;
+	outline-color:none!important;
+	outline-style:none!important;
+	outline-width:none!important;
+	
+	}
+	
+	.btn:focus, .btn.focus
+	{
+	box-shadow:none!important;
+	}
+	.selectpicker,.dropdown-toggle,button.dropdown-toggle
+	{
+	font-size:13px!important;
+	font-weight:600!important;
+	color:#FFD662FF!important;
+	padding-left:5px!important;
+padding-right:20px!important;
+	padding-top:10px!important;
+	padding-bottom:2px!important;
+	outline:none!important;
+	border-width: 0px!important;
+	}
+	.flag-icon-no,.flag-icon-us
+	{
+	font-size:40px!important;
+	border-radius:180px!important;
+	padding:0px!important;
+	border:solid 1.5px #FFF;
+	}
+	.selectpicker .caret
+	{
+	margin-right:-20px!important;
+	content:"";
+	}
+	.top-bar-area .item-flex>div:last-child
+	{
+	border:none!important;
+	}
+	
+	
+.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*=span], .bootstrap-select.btn-group[class*=col-]
+{
+margin-bottom:10px!important;
+}
+	.align-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.slide-in {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+  transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
+.knowmore
+{
+font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;
+border-radius:25px 25px 25px 25px!important;
+color:#FFF!important;
+font-weight:600!important;
+}
+.col-form-label,.form-control
+{
+font-size:13px!important;
+}
+.elementor-image-box-description
+{
+text-align:justify;
+}
+.caret
+{
+display:none!important;
+}
+
+#mainNav.navbar {
+    
+    background: url("../assets/img/bg-mast-scrolled.jpg")!important;
+  background-repeat: no-repeat!important;
+  background-attachment: fixed!important;
+  background-size: cover!important;
+  color:#FFF!important;
+  }
+  .pb-3, .py-3
+  {
+  padding-bottom:none!important;
+  }
+ #page-top
+ {
+ margin-top:60px;
+ }
+ .anchor
+ {
+ padding-top:100px!important;
+ }
+   .open-button {
+            border: none;
+            cursor: pointer;
+            opacity: 0.6;
+            position: fixed;
+            bottom: 300px;
+           right:0;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            border-radius: 25px;
+			 transform: rotate(90deg);
+			color:#FCBE06;
+			z-index:99;
+			display:block;
+			font-family:Comic Sans MS;
+			background:none!important;
+			opacity:1;
+        }
+
+        /* The popup form - hidden by default */
+        .form-popup {
+            display: block;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+			        }
+
+        /* Add styles to the form container */
+        .form-container {
+            max-width: 900px;
+            padding: 10px;
+            background-color: white;
+            transition: all .3s ease-out;
+			overflow: auto;
+			height:600px;
+			width:300px;
+		}
+		@media (max-width: 1600px){
+		.form-container {
+		max-width: 900px;
+        padding: 10px;
+        background-color: white;
+        transition: all .3s ease-out;
+		overflow: auto;
+		height:450px;width:350px;
+		}}
+		
+		@media (max-width: 768px){
+		.form-container {
+		max-width: 900px;
+        padding: 10px;
+        background-color: white;
+        transition: all .3s ease-out;
+		overflow: auto;height:600px;width:300px;
+		}}
+
+        /* Full-width input fields */
+        .form-container input[type=text],
+        .form-container input[type=password],
+        .form-container select {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        /* When the inputs get focus, do something */
+        .form-container input[type=text]:focus,
+        .form-container input[type=password]:focus,
+        .form-container select:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* Set a style for the submit/login button 
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}*/
+
+        /* Add a red background color to the cancel button */
+        .form-container .cancel {
+            background-color: red;
+        }
+
+        /* Add some hover effects to buttons 
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}*/
+        .open-button:hover {
+            opacity: 1;
+        }

@@ -1,0 +1,112 @@
+body {
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    /* background-color:rgb(175, 135, 135); */
+    /* background: -webkit-linear-gradient( rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.281) 0%, rgba(0, 0, 0, 0.281) 100%), url("../assets/img/bg-mast.jpg");
+    /* The least supported option. */
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+main{
+  text-align: left;
+}
+
+  h1,
+  h2 {
+    color: white;
+    font: "Roboto Condensed", sans-serif;
+    margin: 1px auto;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+
+  button {
+    background: #975b94;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .btn-prim {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  .btn-prim:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+  .btn-check:focus + .btn-prim, .btn-prim:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+  }
+  .btn-check:checked + .btn-prim, .btn-check:active + .btn-prim, .btn-prim:active, .btn-prim.active, .show > .btn-prim.dropdown-toggle {
+    color: #fff;
+    background-color: #0a58ca;
+    border-color: #0a53be;
+  }
+  .btn-check:checked + .btn-prim:focus, .btn-check:active + .btn-prim:focus, .btn-prim:active:focus, .btn-prim.active:focus, .show > .btn-prim.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+  }
+  .btn-prim:disabled, .btn-prim.disabled {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  
+  .master-div {
+    align-items: right;
+    width: 35em;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1em;
+    border-radius: 0.5em;
+  }
+  
+  #survey-form {
+    padding: 3em;
+  }
+  
+  .labels {
+    font-size: 1.3em;
+    color: white;
+    text-align: left;
+  }
+  
+  .fields {
+    text-align: left;
+    margin-bottom: 0.5em;
+    /* margin: 0.5em 0 1.5em 0; */
+  }
+  
+  .input-fields {
+    font-size: 1em;
+    height: 2.5em;
+    width: 100%;
+    border-radius: 0.4em;
+    padding-left: 0.8em;
+  }
+
+  
+  ul{
+    padding-left: 0;
+  }
+  
+  ul * {
+   
+    color: white;
+    list-style-type: none;
+  }
